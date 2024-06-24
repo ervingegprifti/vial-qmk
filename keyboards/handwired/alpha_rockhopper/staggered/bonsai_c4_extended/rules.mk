@@ -1,0 +1,1 @@
+DEBUG_FLASH_SPI_OUTPUT = yes

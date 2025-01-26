@@ -16,10 +16,6 @@
 
 #pragma once
 
-// https://docs.qmk.fm/features/encoders#encoders
-#define ENCODER_A_PINS { D3, D1 }
-#define ENCODER_B_PINS { D2, D0 }
-#define ENCODER_RESOLUTION 4
 
 // https://docs.qmk.fm/features/auto_shift
 #define AUTO_SHIFT_TIMEOUT 190

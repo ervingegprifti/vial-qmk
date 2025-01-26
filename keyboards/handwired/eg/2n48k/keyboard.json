@@ -1,22 +1,31 @@
 {
     "manufacturer": "Ervin Gegprifti",
-    "keyboard_name": "2n48k",
+    "keyboard_name": "handwired/eg/2n48k",
     "maintainer": "ervingegprifti",
     "bootloader": "caterina",
-    "diode_direction": "COL2ROW",
+    "processor": "atmega32u4",
     "features": {
-        "command": false,
-        "console": false,
+		"bootmagic": true,
+		"encoder": true,
+		"auto_shift": true,
         "extrakey": true,
         "mousekey": true,
-        "nkro": true
+        "nkro": true,
+        "command": false,
+        "console": false
     },
+    "diode_direction": "COL2ROW",	
     "matrix_pins": {
         "cols": ["B5", "B4", "E6", "D7", "C6", "D4"],
         "rows": ["F4", "F5", "F6", "F7", "B1", "B3", "B2", "B6"]
     },
-    "processor": "atmega32u4",
-    "url": "",
+    "encoder": {
+	  "rotary": [
+	    { "pin_a": "D1", "pin_b": "D0", "resolution": 4 },
+	    { "pin_a": "D3", "pin_b": "D2", "resolution": 4 }
+	  ]
+    },
+    "url": "",	
     "usb": {
         "device_version": "1.0.0",
         "pid": "0x0000",

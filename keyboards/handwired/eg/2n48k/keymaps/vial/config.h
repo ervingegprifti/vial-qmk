@@ -6,9 +6,6 @@
 #define VIAL_UNLOCK_COMBO_ROWS {0, 5}
 #define VIAL_UNLOCK_COMBO_COLS {0, 5}
 
-// https://docs.qmk.fm/features/auto_shift
-#define AUTO_SHIFT_TIMEOUT 191
-
 // Squeezing the most out of AVR
 // https://get.vial.today/docs/firmware-size.html
 #define DYNAMIC_KEYMAP_LAYER_COUNT 3

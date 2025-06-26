@@ -15,7 +15,3 @@
  */
 
 #pragma once
-
-
-// https://docs.qmk.fm/features/auto_shift
-#define AUTO_SHIFT_TIMEOUT 190

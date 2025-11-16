@@ -1,3 +1,5 @@
+// ...\vial-qmk\keyboards\handwired\eg\pastashu\keymaps\default\config.h
+
 /* Copyright 2025 Ervin Gegprifti
  *
  * This program is free software: you can redistribute it and/or modify

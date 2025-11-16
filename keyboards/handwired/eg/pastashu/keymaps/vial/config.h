@@ -1,3 +1,5 @@
+// ...\vial-qmk\keyboards\handwired\eg\pastashu\keymaps\vial\config.h
+
 /* SPDX-License-Identifier: GPL-2.0-or-later */
 
 // https://get.vial.today/docs/porting-to-vial.html

@@ -1,3 +1,5 @@
+// ...\vial-qmk\keyboards\handwired\eg\pastashu\keymaps\default\keymap.c
+
 // Copyright 2023 QMK
 // SPDX-License-Identifier: GPL-2.0-or-later
 
@@ -5,10 +7,15 @@
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /*
-     * ┌───┬───┬───┐
-     * │Ctr│ C │ V │
-     * └───┴───┴───┘
+     * ┌─────┬──────┬──────┐
+     * │Fn   │ Vol- │ Vol+ │
+     * └─────┴──────┴──────┘
      */
-    [0] = LAYOUT( KC_LCTL,  KC_C,  KC_V ),
-	[1] = LAYOUT( KC_TRNS,  KC_TRNS,  KC_TRNS )
+    [0] = LAYOUT( MO(1),  KC_VOLD,  KC_VOLU ),
+	 /*
+     * ┌───────┬───────┬───────┐
+     * │       │ Copy  │ Paste │
+     * └───────┴───────┴───────┘
+     */
+	[1] = LAYOUT( KC_TRNS,  LCTL(KC_C),  LCTL(KC_V) )
 };

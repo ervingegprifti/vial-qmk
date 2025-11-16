@@ -8,8 +8,8 @@
 		"bootmagic": true,
 		"auto_shift": false,
         "extrakey": true,
-        "mousekey": true,
-        "nkro": true,
+        "mousekey": false,
+        "nkro": false,
         "command": false,
         "console": false
     },
@@ -21,7 +21,7 @@
     "usb": {
         "vid": "0xFEED",
         "pid": "0x00E0",
-        "device_version": "1.0.0"
+        "device_version": "2.0.0"
     },
     "layouts": {
         "LAYOUT": {

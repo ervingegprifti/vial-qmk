@@ -1,0 +1,35 @@
+{
+    "manufacturer": "Ervin Gegprifti",
+    "keyboard_name": "Pastashu 3-Key",
+    "maintainer": "ervingegprifti",
+    "bootloader": "caterina",
+    "processor": "atmega32u4",
+    "features": {
+		"bootmagic": true,
+		"auto_shift": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true,
+        "command": false,
+        "console": false
+    },
+    "diode_direction": "COL2ROW",	
+    "matrix_pins": {
+        "cols": ["E6", "B4", "B5"],
+        "rows": ["B6"]
+    },
+    "usb": {
+        "vid": "0xFEED",
+        "pid": "0x00E0",
+        "device_version": "1.0.0"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0},
+                {"matrix": [0, 1], "x": 1, "y": 0},
+                {"matrix": [0, 2], "x": 2, "y": 0}
+            ]
+        }
+    }
+}

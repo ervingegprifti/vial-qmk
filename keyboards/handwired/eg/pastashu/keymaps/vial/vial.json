@@ -1,0 +1,20 @@
+{
+    "lighting": "none",
+    "matrix": {
+        "rows": 1,
+        "cols": 3
+    },
+    "layouts": {
+        "keymap": [
+		  {
+			"name": "Pastashu 3-Key",
+			"author": "Ervin Gegprifti"
+		  },
+		  [
+			"0,0",
+			"0,1",
+			"0,2"
+		  ]
+		]
+    }
+}

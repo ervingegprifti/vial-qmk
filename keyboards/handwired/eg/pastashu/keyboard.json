@@ -2,8 +2,8 @@
     "manufacturer": "Ervin Gegprifti",
     "keyboard_name": "Pastashu 3-Key",
     "maintainer": "ervingegprifti",
-    "bootloader": "caterina",
-    "processor": "atmega32u4",
+    "processor": "RP2040",	
+    "bootloader": "rp2040",
     "features": {
 		"bootmagic": true,
 		"auto_shift": false,
@@ -15,13 +15,13 @@
     },
     "diode_direction": "COL2ROW",	
     "matrix_pins": {
-        "cols": ["E6", "B4", "B5"],
-        "rows": ["B6"]
+        "cols": ["GP6", "GP7", "GP0"],
+        "rows": ["GP1"]
     },
     "usb": {
         "vid": "0xFEED",
         "pid": "0x00E0",
-        "device_version": "2.0.0"
+        "device_version": "2.0.1"
     },
     "layouts": {
         "LAYOUT": {

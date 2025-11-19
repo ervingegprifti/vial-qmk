@@ -1,8 +1,8 @@
 # handwired/eg/pastashu
 
 * Keyboard Maintainer: [Ervin Gegprifti](https://github.com/ervingegprifti)
-* Hardware Supported: *The PCBs, controllers supported*
-* Hardware Availability: *Links to where you can find this hardware*
+* Hardware Supported: *Seeed Studio XIAO RP2040*
+* Hardware Availability: [Seeed Studio XIAO RP2040](https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html)
 
 Make example for this keyboard (after setting up your build environment):
 
@@ -12,12 +12,11 @@ Flashing example for this keyboard:
 
     make handwired/eg/pastashu:default:flash
 	
-Vial build steps:
+Build steps using QMK MSYS:
 
     cd <vial-qmk root directory>
-	clear & qmk clean -a
-	clear & qmk clean -a & make handwired/eg/pastashu:default
-	clear & qmk clean -a & make handwired/eg/pastashu:vial
+	make handwired/eg/pastashu:default
+	make handwired/eg/pastashu:vial
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
 

@@ -15,4 +15,7 @@
 
 // Squeezing the most out of AVR
 // https://get.vial.today/docs/firmware-size.html
-#define DYNAMIC_KEYMAP_LAYER_COUNT 2
+#define DYNAMIC_KEYMAP_LAYER_COUNT 3
+
+#define COMBO_MUST_HOLD_MODS    // Allow combos with modifiers.
+#define COMBO_ALLOW_ACTION_KEYS // Allow complex keycodes inside combos.

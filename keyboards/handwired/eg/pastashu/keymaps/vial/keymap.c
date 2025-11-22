@@ -7,15 +7,21 @@
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /*
-     * ┌─────┬──────┬──────┐
-     * │Fn   │ Vol- │ Vol+ │
-     * └─────┴──────┴──────┘
+     * ┌──────┬──────┬──────┐
+     * │Mute  │ Vol- │ Vol+ │
+     * └──────┴──────┴──────┘
      */
-    [0] = LAYOUT( MO(1),  KC_VOLD,  KC_VOLU ),
+    [0] = LAYOUT( KC_MUTE,  KC_VOLD,  KC_VOLU ),
 	 /*
      * ┌───────┬───────┬───────┐
-     * │       │ Copy  │ Paste │
+     * │       │       │       │
      * └───────┴───────┴───────┘
      */
-	[1] = LAYOUT( KC_TRNS,  LCTL(KC_C),  LCTL(KC_V) )
+	[1] = LAYOUT( KC_TRNS,  KC_TRNS,  KC_TRNS ),
+	 /*
+     * ┌───────┬───────┬───────┐
+     * │       │       │       │
+     * └───────┴───────┴───────┘
+     */
+	[2] = LAYOUT( KC_TRNS,  KC_TRNS,  KC_TRNS )
 };

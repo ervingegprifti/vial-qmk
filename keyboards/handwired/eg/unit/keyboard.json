@@ -1,0 +1,33 @@
+{
+    "manufacturer": "Ervin Gegprifti",
+    "keyboard_name": "Unit 1-Key",
+    "maintainer": "ervingegprifti",
+    "processor": "RP2040",	
+    "bootloader": "rp2040",
+    "features": {
+		"bootmagic": true,
+		"auto_shift": false,
+        "extrakey": true,
+        "mousekey": false,
+        "nkro": false,
+        "command": false,
+        "console": false
+    },
+    "diode_direction": "COL2ROW",	
+    "matrix_pins": {
+        "cols": ["GP7"],
+        "rows": ["GP0"]
+    },
+    "usb": {
+        "vid": "0xFEED",
+        "pid": "0x00E1",
+        "device_version": "1.0.0"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0}
+            ]
+        }
+    }
+}

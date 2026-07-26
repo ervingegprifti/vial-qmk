@@ -1,0 +1,21 @@
+// ...\vial-qmk\keyboards\handwired\eg\pizza\keymaps\vial\config.h
+
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+// https://get.vial.today/docs/porting-to-vial.html
+
+#pragma once
+
+// Run in vial-qmk root: ...vial-qmk>python3 util/vial_generate_keyboard_uid.py
+#define VIAL_KEYBOARD_UID {0xCF, 0xEA, 0xC1, 0xE3, 0xC9, 0x63, 0x7D, 0x6C}
+
+// Vial unlock combo. Two keys that must be pressed at the same time.
+#define VIAL_UNLOCK_COMBO_ROWS {0, 0} // Contains the row numbers of each unlock key.
+#define VIAL_UNLOCK_COMBO_COLS {0, 1} // Contains the column numbers of each unlock key.
+
+// Squeezing the most out of AVR
+// https://get.vial.today/docs/firmware-size.html
+#define DYNAMIC_KEYMAP_LAYER_COUNT 3
+
+#define COMBO_MUST_HOLD_MODS    // Allow combos with modifiers.
+#define COMBO_ALLOW_ACTION_KEYS // Allow complex keycodes inside combos.

@@ -1,6 +1,6 @@
 {
     "manufacturer": "Ervin Gegprifti",
-    "keyboard_name": "_-_ Pizza",
+    "keyboard_name": "_-_ Pizza 1.0.0",
     "maintainer": "ervingegprifti",
     "processor": "RP2040",	
     "bootloader": "rp2040",
@@ -27,7 +27,7 @@
     "usb": {
         "vid": "0xFEED",
         "pid": "0x00E2",
-        "device_version": "0.0.1"
+        "device_version": "1.0.0"
     },
     "layouts": {
         "LAYOUT": {
